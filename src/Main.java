@@ -22,7 +22,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
         }
-        System.out.println("Сумма трат за месяц составила " + sum +" рублей");
+        System.out.println("Сумма трат за месяц составила " + sum + " рублей");
     }
 
     public static void zad2() {
@@ -52,7 +52,7 @@ public class Main {
     }
 
     public static void zad4() {
-        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
         }
